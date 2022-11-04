@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>luas permukaan dan volume bola</title>
+    <script src="hitung.js"></script>
+  </head>
+
+  <style>
+    #luas,
+    #volume {
+      width: 200px;
+      height: 20px;
+      border: 1px solid black;
+    }
+  </style>
+
+  <body>
+    <h1>
+      Menghitung Luas <br />
+      Permukaan Dan Volume Bola
+    </h1>
+    <input type="text" id="r" /> <br />
+    <br /><button onclick="hitung()">Calculate</button>
+    <div id="hasil">
+      <div style="display: flex; gap: 10px">
+        <h3>luas</h3>
+        <p id="luas"></p>
+      </div>
+      <div style="display: flex; gap: 10px">
+        <h3>volume</h3>
+        <p id="volume"></p>
+      </div>
+    </div>
+  </body>
+</html>

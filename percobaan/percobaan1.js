@@ -1,0 +1,1 @@
+document.write("hai guys, ini eksternal javascript");
